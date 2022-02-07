@@ -73,6 +73,11 @@ body {
   font-family: 'Kumbh Sans', sans-serif; /*1.09.30 por algún motivo obligadamente hay q definir el font family para el botón. */
 }
 
+.accordion__content {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
 /* DESKTOP */
 @media (min-width: 56em) {
   body {
