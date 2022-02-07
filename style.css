@@ -21,7 +21,7 @@ html {
 body {
   min-height: 100vh; /*21.43*/
   margin: 0;
-  padding: 0;
+  padding: 3rem;
   font-family: 'Kumbh Sans', sans-serif;
   background-image: linear-gradient(var(--gradient-violet), var(--gradient-blue));
 }
@@ -31,10 +31,11 @@ body {
 .card {
   background: #ffffff;
   border-radius: 2rem;
+  max-width: 56rem;
 }
 
 /* .card__image {
-  
+
 }
 
 .card__text {
@@ -45,7 +46,7 @@ body {
 @media (min-width: 56em) {
   .card {
     display: flex;
-
+    margin: 6rem auto;
   }
 
   .card__image,
