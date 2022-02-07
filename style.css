@@ -21,7 +21,7 @@ html {
 body {
   min-height: 100vh; /*21.43*/
   margin: 0;
-  padding: 3rem;
+  padding: 10rem 1rem;
   font-family: 'Kumbh Sans', sans-serif;
   background-image: linear-gradient(var(--gradient-violet), var(--gradient-blue));
 }
@@ -33,7 +33,7 @@ body {
   border-radius: 2rem;
   max-width: 56rem;
   background-image: url(./images/bg-pattern-mobile.svg);
-  background-size: 50%;
+  background-size: 15rem;
   background-repeat: no-repeat;
   background-position: center 0%;
 }
@@ -42,22 +42,36 @@ body {
   display: none;
 }
 
-.card__image img {
-  width: 100%;
-  height: auto;
-  max-width: 25rem;
+.card__image {
+  position: relative;
 }
 
-/* .card__text {
+.card__image img {
+  position: absolute;
+  top: -6.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
   
-} */
+}
+
+.card__text {
+  padding-top: 7rem;
+  
+} 
 
 /* CARD - DESKTOP */
 @media (min-width: 56em) {
+  body {
+    padding: 5rem;
+  }
   .card {
     position: relative;
     display: flex;
-    margin: 6rem auto;
+    margin: 0 auto;
     padding-right: 2rem;
     background-image: url(./images/bg-pattern-desktop.svg);
     background-size: 45%;
@@ -86,10 +100,14 @@ body {
   }
 
   .card__image img{
+    position: relative;
+    top: auto;
+    left: auto;
     transform: translateX(-4rem);
+    max-width: 25rem;
   }
   
-  /* .card__text {
-    d
-  } */
+  .card__text {
+    padding-top: 0;
+  } 
 }
