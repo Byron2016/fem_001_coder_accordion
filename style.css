@@ -28,11 +28,12 @@ body {
 
 /* CARD */
 /* CARD - MOBILE */
-/* .card {
-
+.card {
+  background: #ffffff;
+  border-radius: 2rem;
 }
 
-.card__image {
+/* .card__image {
   
 }
 
