@@ -94,6 +94,10 @@ h3 {
   text-align: left;
 }
 
+.accordion__question.open {
+  font-weight: 700;
+}
+
 .accordion__question::after {
   content: '';
   display: block;
