@@ -39,6 +39,7 @@ h3 {
   background: #ffffff;
   border-radius: 2rem;
   max-width: 56rem;
+  padding: 2.875rem 1.5rem;
   background-image: url(./images/bg-pattern-mobile.svg);
   background-size: 15rem;
   background-repeat: no-repeat;
@@ -126,7 +127,7 @@ h3 {
     position: relative;
     display: flex;
     margin: 0 auto;
-    padding-right: 2rem;
+    padding: 4.375rem 6.25rem 4.375rem 0;
     background-image: url(./images/bg-pattern-desktop.svg);
     background-size: 45%;
     background-repeat: no-repeat;
