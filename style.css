@@ -61,11 +61,12 @@ body {
     flex: 1;
   }
   
-  /* .card__image {
-    d
+  .card__image {
+    display: flex;
+    align-items: center;
   }
   
-  .card__text {
+  /* .card__text {
     d
   } */
 }
