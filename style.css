@@ -51,7 +51,7 @@ body {
     margin: 6rem auto;
     padding-right: 2rem;
     background-image: url(./images/bg-pattern-desktop.svg);
-    background-size: cover;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: left center;
   }
