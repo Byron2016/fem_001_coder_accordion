@@ -7,7 +7,7 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+<!-- ## Colors
 
 ### Primary
 
@@ -32,15 +32,15 @@ Background gradient:
 
 #### Dividers
 
-- Light grayish blue: hsl(240, 5%, 91%)
+- Light grayish blue: hsl(240, 5%, 91%) -->
 
-## Typography
+<!-- ## Typography
 
 ### Body Copy
 
 - Font size: 12px
 
-### Font
+-- ### Font
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+- Weights: 400, 700  -->
