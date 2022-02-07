@@ -25,3 +25,38 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background-image: linear-gradient(var(--gradient-violet), var(--gradient-blue));
 }
+
+/* CARD */
+/* CARD - MOBILE */
+/* .card {
+
+}
+
+.card__image {
+  
+}
+
+.card__text {
+  
+} */
+
+/* CARD - DESKTOP */
+@media (min-width: 56em) {
+  .card {
+    display: flex;
+
+  }
+
+  .card__image,
+  .card__text {
+    flex: 1;
+  }
+  
+  /* .card__image {
+    d
+  }
+  
+  .card__text {
+    d
+  } */
+}
