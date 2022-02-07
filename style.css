@@ -64,6 +64,11 @@ body {
   .card__image {
     display: flex;
     align-items: center;
+    overflow: hidden;
+  }
+
+  .card__image img{
+    transform: translateX(-4rem);
   }
   
   /* .card__text {
