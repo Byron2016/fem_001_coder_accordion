@@ -71,17 +71,28 @@ h3 {
 } 
 
 /* ACCORDION */
+.accordion__item {
+  padding-top: 1rem;
+  border-bottom: 1px solid var(--divider-blue);
+}
+
+.accordion__item h2 {
+  margin-bottom: 0;
+}
+
 .accordion__question {
   border: none;
   background: transparent;
   padding: 0;
   font-size: 0.875rem;
   font-family: 'Kumbh Sans', sans-serif; /*1.09.30 por algún motivo obligadamente hay q definir el font family para el botón. */
+  margin-bottom: 1rem;
 }
 
 .accordion__content {
   font-size: 0.75rem;
   line-height: 1.4;
+  margin-bottom: 1rem;
 }
 
 /* DESKTOP */
