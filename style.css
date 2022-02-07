@@ -89,14 +89,10 @@ h3 {
   border: none;
   background: transparent;
   margin-bottom: 1rem;
-  padding: 0;
+  padding: 0.2rem;
   font-size: 0.875rem;
   font-family: 'Kumbh Sans', sans-serif; /*1.09.30 por algún motivo obligadamente hay q definir el font family para el botón. */
   text-align: left;
-}
-
-.accordion__question.open {
-  font-weight: 700;
 }
 
 .accordion__question::after {
@@ -104,16 +100,44 @@ h3 {
   display: block;
   width: 0.625rem;
   height: 1rem;
+  border: none;
   background-image: url('./images/icon-arrow-down.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  transition: transform 300ms ease-in-out;
+}
+
+.accordion__question:focus, 
+.accordion__question:focus-visible {
+  border: none;
+  outline: dashed 1px rgba(0, 0, 0, 0.25);
+}
+
+.accordion__question.open {
+  font-weight: 700;
+}
+
+.accordion__question.open::after {
+  transform: rotate(180deg);
 }
 
 .accordion__content {
   font-size: 0.75rem;
   line-height: 1.4;
   margin-bottom: 1rem;
+}
+
+.accordion__collapse.collapse {
+  display: none;
+}
+
+.accordion__collapse.collapsing {
+  
+}
+
+.accordion__collapse.open {
+  
 }
 
 /* DESKTOP */
